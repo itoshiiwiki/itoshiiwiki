@@ -61,9 +61,7 @@ $url_prefix="/moniwiki";
 #$base_url_prefix='/w'; # force the base url
 $imgs_dir= $url_prefix.'/imgs';
 $logo_img= $imgs_dir.'/itoshiiwiki-logo.png';
-$query_prefix= $_SERVER['DOCUMENT_ROOT'].'/web/';
-
-echo $query_prefix;
+$query_prefix= '/';
 
 $css_url= $url_prefix.'/css/nlog.css';
 $kbd_script= $url_prefix.'/css/kbd.js';
