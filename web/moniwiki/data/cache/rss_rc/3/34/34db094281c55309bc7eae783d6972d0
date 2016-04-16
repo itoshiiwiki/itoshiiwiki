@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/moniwiki/css/_feed.css" type="text/css"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/"
+	xmlns:wiki="http://purl.org/rss/1.0/modules/wiki/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+<!--
+    Add "diffs=1" to add change diffs to the description of each items.
+    Add "summary=1" to add summary to the description of each items.
+    Add "oe=utf-8" to convert the charset of this rss to UTF-8.
+-->
+<channel rdf:about="http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php">
+  <title>집에 돌아오면 반드시 위키니트가 되어 있습니다</title>
+  <link>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/RecentChanges</link>
+  <description>RecentChanges at 집에 돌아오면 반드시 위키니트가 되어 있습니다</description>
+  <image rdf:resource="http://wiki-itoshiinovel.c9users.io:80/moniwiki/imgs/itoshiiwiki-logo.png"></image>
+  <items>
+  <rdf:Seq>
+<rdf:li rdf:resource="http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/FrontPage"></rdf:li>
+<rdf:li rdf:resource="http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/RecentChanges"></rdf:li>
+<rdf:li rdf:resource="http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/__TEST"></rdf:li>
+    </rdf:Seq>
+  </items>
+</channel>
+<image rdf:about="http://wiki-itoshiinovel.c9users.io:80/moniwiki/imgs/itoshiiwiki-logo.png">
+<title>집에 돌아오면 반드시 위키니트가 되어 있습니다</title>
+<link>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/FrontPage</link>
+<url>http://wiki-itoshiinovel.c9users.io:80/moniwiki/imgs/itoshiiwiki-logo.png</url>
+</image>
+<item rdf:about="http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/FrontPage">
+  <title>FrontPage</title>
+  <link>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/FrontPage</link>
+  <description>대문 정리</description>
+  <dc:date>2016-04-13T12:35:56+00:00</dc:date>
+<dc:creator>Anonymous</dc:creator>
+<dc:contributor>Anonymous</dc:contributor>
+     <wiki:status>updated</wiki:status>
+     <wiki:diff>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/FrontPage?action=diff</wiki:diff>
+</item>
+<item rdf:about="http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/RecentChanges">
+  <title>RecentChanges</title>
+  <link>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/RecentChanges</link>
+  <description></description>
+  <dc:date>2016-04-13T09:47:00+00:00</dc:date>
+<dc:creator>admin</dc:creator>
+<dc:contributor>admin</dc:contributor>
+     <wiki:status>updated</wiki:status>
+     <wiki:diff>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/RecentChanges?action=diff</wiki:diff>
+</item>
+<item rdf:about="http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/__TEST">
+  <title>__TEST</title>
+  <link>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/__TEST</link>
+  <description>수정내역 활성화 테스트</description>
+  <dc:date>2016-04-13T09:40:58+00:00</dc:date>
+<dc:creator>admin</dc:creator>
+<dc:contributor>admin</dc:contributor>
+     <wiki:status>updated</wiki:status>
+     <wiki:diff>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/__TEST?action=diff</wiki:diff>
+</item>
+<textinput>
+<title>Search</title>
+<link>http://wiki-itoshiinovel.c9users.io:80/moniwiki/wiki.php/FindPage</link>
+<name>goto</name>
+</textinput>
+</rdf:RDF>

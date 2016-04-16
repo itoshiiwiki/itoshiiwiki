@@ -1,0 +1,1 @@
+a:4:{s:3:"ttl";i:0;s:5:"mtime";i:1460749259;s:3:"val";a:2:{s:11:"description";s:208:"config.php의 $pds_allowed라는 변수를 조정하면 업로드가능한 파일을 제한을 걸 수 있다. $pds_allowed의 기본값은 다음과 같을 것이다. {{{ $pds_allowed=&quot;png|jpg|jpeg|g...";s:5:"image";s:0:"";}s:2:"id";s:15:"UploadFileMacro";}

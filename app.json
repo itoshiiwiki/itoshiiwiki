@@ -1,0 +1,6 @@
+{
+  "name": "itoshiiwiki",
+  "description": "http://cafe.naver.com/itoshiinovel - Wiki site",
+  "repository": "https://git.heroku.com/itoshiiwiki.git",
+  "addons": []
+}

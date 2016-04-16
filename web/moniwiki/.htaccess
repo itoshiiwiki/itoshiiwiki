@@ -1,0 +1,8 @@
+#Option 10
+# 디렉토리 리스팅 방지
+Options All -Indexes
+
+# http로 접속 시 https 로 강제 리다이렉트
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [QSA,L,R=301]

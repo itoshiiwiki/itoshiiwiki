@@ -1,0 +1,25 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1;
+
+
+1.1
+date	2016.04.15.10.00.57;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@175.125.198.35;;izure;;{CREATE}: 리다이렉트 생성
+@
+text
+@#redirect 10분 글쓰기
+@
+

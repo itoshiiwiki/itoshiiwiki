@@ -1,0 +1,59 @@
+head	1.3;
+access;
+symbols;
+locks
+	root:1.3;
+
+
+1.3
+date	2016.04.13.18.24.58;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.04.13.18.23.41;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.04.13.18.23.06;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@175.125.198.35;;izure;;
+@
+text
+@[[목차]]
+= 정의 =
+문서 항목을 고의적, 또는 악의적 의도를 가지고 훼손을 가하는 행위. 위키 시스템 내에서 빈번하게 일어나는 일이다.
+@
+
+
+1.2
+log
+@175.125.198.35;;izure;;
+@
+text
+@a1 1
+반달리즘
+@
+
+
+1.1
+log
+@175.125.198.35;;izure;;{CREATE}: 항목 생성
+@
+text
+@d2 2
+a3 2
+= 반달리즘 =
+== 정의 ==
+@
+

@@ -1,0 +1,239 @@
+head	1.13;
+access;
+symbols;
+locks
+	root:1.13;
+
+
+1.13
+date	2016.04.15.20.03.25;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2016.04.15.20.01.22;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2016.04.15.19.52.34;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2016.04.15.18.12.56;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2016.04.15.13.44.30;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2016.04.14.17.58.36;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2016.04.14.17.46.26;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2016.04.14.17.46.15;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2016.04.14.08.31.26;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.04.14.08.29.58;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.04.14.08.13.36;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.04.13.09.40.58;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.04.13.09.36.00;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@175.125.198.35;;izure;;
+@
+text
+@새로운 항목을 만들었습니다. 이 항목은 <테스트>용 항목입니다.
+현재 로그인 사용자 관련 테스트를 진행하고 있습니다.
+아이피 숨김해제 [[테스트]]
+아이피 숨김기능 [테스트]
+수정내역 활성화 테스트
+수정내역 활성화 테스트
+수정 비활성화 테스트
+모니마크업 설정 테스트
+{{{#red 글}}}{{{#orange 자}}} {{{#yellow 색}}}{{{#green 상}}} {{{#blue 추}}}{{{#skyblue 가}}} {{{#yellowgreen 테}}}{{{#gray 스}}}{{{#purple 트}}}
+<script>
+alert('1');
+</script>
+<?php
+phpinfo();
+?>
+[[__TEST]]
+@
+
+
+1.12
+log
+@175.125.198.35;;izure;;
+@
+text
+@a9 2
+
+attachment:0a8920f19b51016e40d3a73b544d3364.jpg
+@
+
+
+1.11
+log
+@175.125.198.35;;izure;;
+@
+text
+@d10 2
+@
+
+
+1.10
+log
+@175.125.198.35;;izure;;
+@
+text
+@a9 2
+{{{#gold 글}}}{{{#silver 자}}} {{{#brown 색}}}{{{#cyan 상}}} {{{#magenta 추}}}{{{#pink 가}}} {{{#hotpink 테}}}{{{#violet 스}}}{{{#darkblue 트}}}
+attachment:36e70652a3f06549fe21c83c6420f174.jpg
+@
+
+
+1.9
+log
+@121.186.102.44;;suigint;;
+@
+text
+@d11 1
+a11 1
+
+@
+
+
+1.8
+log
+@121.186.102.44;;suigint;;
+@
+text
+@d10 1
+@
+
+
+1.7
+log
+@175.125.198.35;;Anonymous;;
+@
+text
+@d9 1
+a9 1
+{{{#red 글자 색상 추가 테스트}}}
+@
+
+
+1.6
+log
+@175.125.198.35;;Anonymous;;
+@
+text
+@d1 17
+@
+
+
+1.5
+log
+@175.125.198.35;;izure;;글자 색상 추가 테스트
+@
+text
+@a0 17
+새로운 항목을 만들었습니다. 이 항목은 <테스트>용 항목입니다.
+현재 로그인 사용자 관련 테스트를 진행하고 있습니다.
+아이피 숨김해제 [[테스트]]
+아이피 숨김기능 [테스트]
+수정내역 활성화 테스트
+수정내역 활성화 테스트
+수정 비활성화 테스트
+모니마크업 설정 테스트
+{{{#red 글자 색상 추가 테스트}}}
+
+<script>
+alert('1');
+</script>
+<?php
+phpinfo();
+?>
+[[__TEST]]
+@
+
+
+1.4
+log
+@175.125.198.35;;izure;;모니마크업 설정 테스트
+@
+text
+@d9 1
+@
+
+
+1.3
+log
+@175.125.198.35;;izure;;수정 비활성화 테스트
+@
+text
+@d3 6
+a8 5
+아이피 숨김해제 [[테스트]]중입니다.
+아이피 숨김기능 [테스트]중입니다.
+수정내역 활성화 테스트중입니다.
+수정내역 활성화 테스트중입니다.
+수정 비활성화 테스트중입니다
+@
+
+
+1.2
+log
+@10.240.0.211;;admin;;수정내역 활성화 테스트
+@
+text
+@d7 1
+@
+
+
+1.1
+log
+@10.240.0.211;;admin;;수정내역 활성화 테스트
+@
+text
+@d5 1
+@
+

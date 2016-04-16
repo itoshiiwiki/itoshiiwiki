@@ -1,0 +1,143 @@
+head	1.5;
+access;
+symbols;
+locks
+	root:1.5;
+
+
+1.5
+date	2016.04.13.16.10.51;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2016.04.13.16.09.06;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2016.04.13.16.06.43;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.04.13.16.03.32;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.04.13.13.39.06;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@175.125.198.35;;Anonymous;;
+@
+text
+@#redirect 집에 돌아오면 반드시 죽은 척을 하고 있습니다.
+@
+
+
+1.4
+log
+@175.125.198.35;;Anonymous;;
+@
+text
+@d1 1
+a1 1
+#redirect "집에 돌아오면 반드시 죽은 척을 하고 있습니다"
+@
+
+
+1.3
+log
+@175.125.198.35;;Anonymous;;리다이렉트 버그 수정
+@
+text
+@d1 1
+a1 1
+#redirect 집에 돌아오면 반드시 죽은 척을 하고 있습니다
+@
+
+
+1.2
+log
+@175.125.198.35;;Anonymous;;리다이렉트 수정
+@
+text
+@d1 1
+a1 1
+#redirect 집에돌아오면반드시죽은척을하고있습니다
+@
+
+
+1.1
+log
+@110.70.15.246;;Anonymous;;{CREATE}
+@
+text
+@d1 1
+a1 55
+== 집에 돌아오면 반드시 죽은척을 하고 있습니다 ==
+
+집죽척은 네이버의 소설 카페 '집에 돌아오면 반드시 죽은 척을 하고 있습니다'의 줄임말이다.
+
+=== 1. 소개 ===
+
+네이버의 소설 카페. 정확히는 친목형 자작 소설카페.
+
+주소는 다음과 같다. 
+http://cafe.naver.com/itoshiinovel
+
+창립자는 [설탕유리]이다.
+
+
+=== 2. 역대 매니저 및 스탭 ===
+
+==== 2.1 역대 매니저 ====
+
+1대 매니저 : [설탕유리]
+
+2대 매니저 : 혈목
+
+3대 매니저 : [검은먼지]
+
+4대 매니저 : [설탕유리]
+
+
+==== 2.2 스탭진 ====
+
+4기 스탭진
+
+부매니저 : [하나린]
+
+ 그냥Luna
+ [열가소성]
+ [Deplation]
+
+5기 스탭진(5.5기 스탭진을 포함합니다.)
+
+부매니저 : [프렛]
+ [YU Q]
+ [JDY]
+ [생강]
+
+
+=== 3. 카페 연혁 ===
+
+카페 연혁은 다음 사이트에서 정리되어 갱신되고 있다.
+http://cafe.naver.com/itoshiinovel.cafe?iframe_url=/CafeHistoryView.nhn%3Fclubid=23938779
+
+
+
+=== 4. 카페 규칙 ===
+
+[카페규칙]항목을 참고.
+@
+

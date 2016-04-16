@@ -1,0 +1,174 @@
+<div class="recentChanges"><table border='0' cellpadding='0' cellspacing='0' width='100%'><thead><tr><th colspan='3' class='title'>Title</th><th class='author'>Editor</th><th class='editinfo'>Changes</th><th class='date'>Change Date</th></tr></thead>
+<tbody>
+<tr class="alt"><td style='white-space:nowrap;width:2%'><a href="/moniwiki/wiki.php/FrontPage?action=diff"  id='icon-0'><span>{_DIFF_}</span></a></td><td class='title' style='width:40%'><a href="/moniwiki/wiki.php/FrontPage"  id='title-0' title="Front Page"><span>Front Page</span></a></td><td><a href="/moniwiki/wiki.php/RecentChanges?action=bookmark&amp;time=1460514843&amp;days=30"  onclick="update_bookmark(1460514843);return false;" class="button-small"><span>Bookmark</span></a></td><td class='author'><span class="rc-editors"><span class="editor">10.240.0.&loz;&loz;&loz; <span class='range'>[1,4-5]</span></span> <span class='editor'>10.240.0.&loz;&loz;&loz; <span class='range'>[2]</span></span> <span class='editor'>10.240.0.&loz;&loz;&loz; <span class='range'>[3]</span></span></span>
+</td><td class='editinfo'><span id="change-0"> <span class='num'>5</span> changes</span> <span id="diff-0"></span></td><td class='date'><a href="/moniwiki/wiki.php/RecentChanges?action=bookmark&amp;time=1460514843&amp;days=30"  id="time-0"  onclick="update_bookmark(1460514843);return false;"><span>6 hours ago</span></a></td></tr>
+<tr><td style='white-space:nowrap;width:2%'><a href="/moniwiki/wiki.php/__TEST?action=diff"  id='icon-1'><span>{_DIFF_}</span></a></td><td class='title' style='width:40%'><a href="/moniwiki/wiki.php/__TEST"  id='title-1' title="__TEST"><span>__TEST</span></a></td><td></td><td class='author'><span class="rc-editors"><span class="editor">10.240.0.&loz;&loz;&loz; <span class='range'>[1,3]</span></span> <span class='editor'>10.240.0.&loz;&loz;&loz; <span class='range'>[2,6]</span></span> <span class='editor'>admin <span class='range'>[4]</span></span> <span class='editor'>10.240.0.&loz;&loz;&loz; <span class='range'>[5]</span></span></span>
+</td><td class='editinfo'><span id="change-1"> <span class='num'>6</span> changes</span> <span id="diff-1"></span></td><td class='date'><a href="/moniwiki/wiki.php/RecentChanges?action=bookmark&amp;time=1460514735&amp;days=30"  id="time-1"  onclick="update_bookmark(1460514735);return false;"><span>6 hours ago</span></a></td></tr>
+</tbody></table></div><script type='text/javascript'>
+/*<![CDATA[*/
+var rclist =["FrontPage","__TEST"];
+var use_diffwidth = false;
+function diff_width(size) {
+    if (size < 0)
+        size = -size;
+    if (size < 5)
+      return '';
+    else if (size < 10)
+      return 'display:inline-block;width:25px';
+    else
+      return 'display:inline-block;width:' + ~~(25 + 2*Math.sqrt(size)) + 'px';
+}
+
+function update_bookmark(time) {
+    var url = "/moniwiki/wiki.php/RecentChanges";
+    if (rclist.length) {
+      var timetag;
+      if (typeof time == 'undefined') timetag = '';
+      else timetag = '&time=' + time;
+
+      var data = "action=recentchanges/ajax&new=1&change=1";
+      data += timetag + '&value=' + encodeURIComponent(json_encode(rclist));
+      var txt = HTTPPost(url, data);
+      var ret;
+      if (txt == null) return;
+
+      var icon_new = "<img src='/moniwiki/imgs/moni2/new.png' alt='(new)' />";
+      var icon_updated = "<img src='/moniwiki/imgs/moni2/updated.png' alt='(updated)' />";
+      var icon_show = "<img src='/moniwiki/imgs/moni2/show.png' alt='R' class='wikiIcon' />";
+      var icon_diff = "<img src='/moniwiki/imgs/moni2/diff.png' alt='D' class='wikiIcon' />";
+
+      ret = window["eval"]("(" + txt + ")");
+      var bookmark = ret['__-_-bookmark-_-__'];
+      var jj = 0;
+      for (var ii = 0; ii < rclist.length; ii++) {
+        // update time
+        var time = document.getElementById('time-' + ii);
+        var tstr = time.firstChild.innerText;
+        var d0 = Date.parse(tstr); // test
+        if (isNaN(d0)) {
+          // recalc time string
+          var timestamp = time.href.match(/time=(\d+)/);
+          tstr = timesago(timestamp[1], "D d M Y", 0);
+          if (tstr != null)
+            time.firstChild.innerText = tstr;
+        }
+
+        var item = document.getElementById('title-' + ii);
+        var title = item.getAttribute('title');
+        if (rclist[jj] != title) {
+          var re = new RegExp("^.*" + url_prefix + '/');
+          title = decodeURIComponent(item.href.replace(re, ''));
+        }
+
+        if (ret[title] && ret[title]['state'] == 'deleted') { jj++; continue; }
+
+        if (rclist[jj] == title && ret[title]) {
+          var icon = document.getElementById('icon-' + ii);
+          var state = document.createElement('SPAN');
+          if (ret[title]['state'] == 'new') {
+            state.innerHTML = icon_new;
+            state.setAttribute('class', 'new');
+            icon.href = icon.href.replace(/action=(diff|info)((?:&|&amp;)date=\d+)?/, 'action=info');
+            icon.innerHTML = icon_show;
+          } else {
+            state.innerHTML = icon_updated;
+            state.setAttribute('class', 'updated');
+            icon.href = icon.href.replace(/action=(diff|info)((?:&|&amp;)date=\d+)?/, 'action=diff&date=' + bookmark);
+            icon.innerHTML = icon_diff;
+          }
+
+          // remove previous icon
+          if (item.firstChild.nextSibling)
+            item.removeChild(item.firstChild.nextSibling);
+          item.appendChild(state); // add updated / new icon
+
+          var change = document.getElementById('change-' + ii);
+          if (!change) continue;
+          var diff = document.getElementById('diff-' + ii);
+          var nodiff = !diff;
+
+          // remove previous diff info
+          if (change.lastChild && change.lastChild.tagName == 'SPAN')
+            change.removeChild(change.lastChild);
+          else if (diff && diff.lastChild)
+            diff.removeChild(diff.lastChild);
+
+          // add diff info
+          var diff0 = document.createElement('SPAN');
+          if (ret[title]['add']) {
+            var add = document.createElement('SPAN');
+            var add2 = document.createElement('SPAN');
+            add.setAttribute('class', 'diff-added');
+            var txt = document.createTextNode('+' + ret[title]['add']);
+            add2.appendChild(txt);
+            add.appendChild(add2);
+            diff0.appendChild(add);
+            if (use_diffwidth)
+            add.style.cssText = diff_width(ret[title]['add']);
+          }
+          if (ret[title]['del']) {
+            var del = document.createElement('SPAN');
+            var del2 = document.createElement('SPAN');
+            del.setAttribute('class', 'diff-removed');
+            var txt = document.createTextNode(ret[title]['del']);
+            del2.appendChild(txt);
+            del.appendChild(del2);
+            diff0.appendChild(del);
+            if (use_diffwidth)
+            del.style.cssText = diff_width(ret[title]['del']);
+          }
+          if (nodiff)
+            change.appendChild(diff0);
+          else
+            diff.appendChild(diff0);
+          jj++;
+        } else {
+          if (item.firstChild.nextSibling)
+            item.removeChild(item.firstChild.nextSibling);
+
+          var change = document.getElementById('change-' + ii);
+          if (!change) continue;
+          var diff = document.getElementById('diff-' + ii);
+
+          // remove diff info
+          if (change.lastChild && change.lastChild.tagName == 'SPAN')
+            change.removeChild(change.lastChild);
+          else if (diff && diff.lastChild)
+            diff.removeChild(diff.lastChild);
+
+          // recover diff icon and link
+          var icon = document.getElementById('icon-' + ii);
+          if (icon && icon.firstChild) {
+            var alt = icon.firstChild.getAttribute('alt');
+            if (alt != 'D' && alt != '@') {
+              icon.innerHTML = icon_diff;
+            }
+            // recover link
+            icon.href = icon.href.replace(/action=(diff|info)(&date=\d+)?/, 'action=diff');
+          }
+        }
+      }
+    }
+}
+if(window.addEventListener)window.addEventListener("load",update_bookmark,false);
+else if(window.attachEvent)window.attachEvent("onload",update_bookmark);
+/*]]>*/
+</script><script type='text/javascript'>
+/*<![CDATA[*/
+function toggle_log(el)
+{
+  var item = el.parentNode.parentNode; // container
+  var log = item.nextSibling;
+  if (log.tagName == undefined)
+    log = log.nextSibling; // for IE6
+
+  if (log.style.display == "none") {
+    el.className = "close";
+    log.style.display = "";
+  } else {
+    el.className = "open";
+    log.style.display = "none";
+  }
+}
+/*]]>*/
+</script><!-- rckey = 68b76b5bc3131c6c24b912533b1019ce, cache delay = 0 -->

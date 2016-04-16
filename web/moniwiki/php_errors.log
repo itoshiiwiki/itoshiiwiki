@@ -1,0 +1,66 @@
+[12-Apr-2016 22:36:39 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:36:39 UTC] PHP Stack trace:
+[12-Apr-2016 22:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:36:39 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:36:39 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:665
+[12-Apr-2016 22:36:39 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:36:39 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:36:39 UTC] PHP Stack trace:
+[12-Apr-2016 22:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:36:39 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:36:39 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:665
+[12-Apr-2016 22:36:39 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:36:39 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:36:39 UTC] PHP Stack trace:
+[12-Apr-2016 22:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:36:39 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:36:39 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:665
+[12-Apr-2016 22:36:39 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:36:39 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:36:39 UTC] PHP Stack trace:
+[12-Apr-2016 22:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:36:39 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:36:39 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:665
+[12-Apr-2016 22:36:39 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:36:39 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:36:39 UTC] PHP Stack trace:
+[12-Apr-2016 22:36:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:36:39 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:36:39 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:694
+[12-Apr-2016 22:36:39 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:37:18 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:37:18 UTC] PHP Stack trace:
+[12-Apr-2016 22:37:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:37:18 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:37:18 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:665
+[12-Apr-2016 22:37:18 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:37:18 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:37:18 UTC] PHP Stack trace:
+[12-Apr-2016 22:37:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:37:18 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:37:18 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:665
+[12-Apr-2016 22:37:18 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:37:18 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:37:18 UTC] PHP Stack trace:
+[12-Apr-2016 22:37:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:37:18 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:37:18 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:665
+[12-Apr-2016 22:37:18 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:37:18 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:37:18 UTC] PHP Stack trace:
+[12-Apr-2016 22:37:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:37:18 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:37:18 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:665
+[12-Apr-2016 22:37:18 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 22:37:18 UTC] PHP Warning:  fsockopen(): unable to connect to 172.17.131.161:443 (Connection refused) in /home/ubuntu/workspace/moniwiki/monisetup.php on line 720
+[12-Apr-2016 22:37:18 UTC] PHP Stack trace:
+[12-Apr-2016 22:37:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/monisetup.php:0
+[12-Apr-2016 22:37:18 UTC] PHP   2. checkConfig() /home/ubuntu/workspace/moniwiki/monisetup.php:1446
+[12-Apr-2016 22:37:18 UTC] PHP   3. check_htaccess() /home/ubuntu/workspace/moniwiki/monisetup.php:694
+[12-Apr-2016 22:37:18 UTC] PHP   4. fsockopen() /home/ubuntu/workspace/moniwiki/monisetup.php:720
+[12-Apr-2016 23:12:43 UTC] PHP Fatal error:  Call to undefined function site_project_header() in /home/ubuntu/workspace/moniwiki/theme/embeded2/header.php on line 28
+[12-Apr-2016 23:12:43 UTC] PHP Stack trace:
+[12-Apr-2016 23:12:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/moniwiki/wiki.php:0
+[12-Apr-2016 23:12:43 UTC] PHP   2. wiki_main() /home/ubuntu/workspace/moniwiki/wiki.php:6834
+[12-Apr-2016 23:12:43 UTC] PHP   3. Formatter->send_title() /home/ubuntu/workspace/moniwiki/wiki.php:6365
+[12-Apr-2016 23:12:43 UTC] PHP   4. include() /home/ubuntu/workspace/moniwiki/wiki.php:5513

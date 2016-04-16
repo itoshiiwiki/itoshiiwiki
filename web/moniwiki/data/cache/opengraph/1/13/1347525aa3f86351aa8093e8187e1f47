@@ -1,0 +1,1 @@
+a:4:{s:3:"ttl";i:0;s:5:"mtime";i:1460656295;s:3:"val";a:2:{s:11:"description";s:203:"CVS에서 가져오기 CVS에서 최신 모니위키 소스를 가져옵니다.  1. 원하는 설치경로로 옮깁니다. (예를 들어 /home/foobar/public_html) 2. CVS로부터 소스를 가져옵...";s:5:"image";s:0:"";}s:2:"id";s:21:"HelpOnCvsInstallation";}
