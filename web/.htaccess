@@ -3,5 +3,5 @@
 Options All -Indexes
 
 # 강제 /moniwiki/wiki.php로 이동
-RewriteEngine On
-RewriteRule ^(.*)$ https://%{SERVER_NAME}/moniwiki/wiki.php [QSA,L,R=301]
+# RewriteEngine On
+# RewriteRule ^(.*)$ https://%{SERVER_NAME}/moniwiki/wiki.php [QSA,L,R=301]
