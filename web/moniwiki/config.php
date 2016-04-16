@@ -152,7 +152,7 @@ $menu=array('FrontPage'=>1,'FindPage'=>4,'TitleIndex'=>3,'RecentChanges'=>2,'Use
 #$path='./bin;c:/windows/command;c:/Program Files/gnuplot;c:/Program Files/vim/vim71'; # for win32
 #$path='./bin;C:/Program Files/MiKTeX 2.5/miktex/bin;C:/Program Files/ImageMagick-6.3.6-Q16'; # for MikTeX
 # ./bin to use user installed bins.
-$theme='publish'; # set the theme
+$theme='paper'; # set the theme
 $theme_css=0; # change css of theme or not
 #$custom_css='local/custom.css.php'; # custom css
 #$mobile_theme='default'; # set the theme of mobile
